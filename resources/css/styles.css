@@ -62,7 +62,8 @@ header{
     display: inline-block;
 }
 .btn:link,
-.btn:visited{
+.btn:visited,
+input[type="submit"]{
     text-decoration: none;
     padding: 10px 30px;
     border-radius: 200px;
@@ -73,13 +74,15 @@ header{
     color: #fff;
 }
 .btn-full:link,
-.btn-full:visited{
+.btn-full:visited,
+input[type="submit"]{
     background-color: #ed07b7;
     color: #fff;
     transition: 0.3s;
 }
 .btn-full:hover,
-.btn-full:active{
+.btn-full:active,
+input[type="submit"]:hover{
     background-color: 	#be0692;
 }
 .btn-ghost:link,
@@ -354,4 +357,45 @@ cite img{
 }
 .package-box div:first-child{
     background-color: #fcfcfc;
+}
+
+/* Contact form here */
+.contact-section{
+    text-align: center;
+}
+.contact-heading{
+    color: #000;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.contact-form {
+    text-align: left;
+    margin: 0 auto;
+    color: #555;
+    width: 80%;
+}
+input[type=text],
+input[type=email],
+textarea{
+    width: 100%;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+input[type=checkbox]{
+    margin: 10 5px 10px 0;
+}
+input[type="submit"]{
+    border: 0;
+}
+textarea{
+    height: 100px;
+}
+.newsletter{
+    margin: 0 5px;
+}
+*:focus{
+    outline: none;
 }
