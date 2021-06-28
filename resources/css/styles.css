@@ -481,3 +481,22 @@ footer p{
     margin-top: 50px;
     line-height: 1.5;
 }
+.sticky-nav{
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(255, 255, 255, .7);
+    width: 100%;
+    box-shadow: 0 2px 2px #efefef;
+}
+.sticky-nav .logo{
+    height: 60px;
+    margin: 3px;
+}
+.sticky-nav .main-nav{
+    margin-top: 25px;
+}
+.sticky-nav .main-nav li a{
+    color: #555;
+    padding: 5px;
+}
